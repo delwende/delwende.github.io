@@ -18,6 +18,7 @@ Released   : 20130631
 <meta name="description" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="styles/styles.css">
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
@@ -25,7 +26,7 @@ Released   : 20130631
 <body>
 <div id="wrapper">
 	<div id="header-wrapper">
-		<div id="header" class="container">
+		<div id="header" >
 			<div id="logo">
 				<h1><a href="#">Eliane Birba</a></h1>
 				<p>Software engineer and Entrepreneur <a href="http://templated.co" rel="nofollow"> </a></p>
@@ -34,109 +35,94 @@ Released   : 20130631
 		</div>
 	</div>
 	<div id="menu-wrapper">
-		<div id="menu" class="container">
+		<div id="menu">
 			<ul>
 				<li ><a href="index.html">Homepage</a></li>
 				<li><a href="awards.html">Awards</a></li>
-				<li><a href="https://github.com/delwende">Github</a></li>
 				<li><a href="education.html">Education</a></li>	
-				<li class="current_page_item"><a href="research.html">Projects</a></li>
-				<li><a href="portolio.pdf">Portolio</a></li>
-				<li><a href="BirbaDEliane-myCV.pdf">CV</a></li>
-				<li><a href="#">Contact</a></li>
+				<li class="current_page_item"><a href="research.html">Portfolio</a></li>
+				<li><a href="Delwende_Eliane_Birba_CV.pdf">CV</a></li>
+				<li><a href="https://github.com/delwende">Github</a></li>
 			</ul>
 		</div>
 		<!-- end #menu --> 
 	</div>
 	<div id="portfolio-wrapper">
-		<div id="portfolio" class="container">
-			<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/1.png" alt="" /></a>
-				<p>In collaboration with Dr. Theophile Sawadogo, a neuroscientist based in France, I developed MedicSoft. MedicSoft serves as a medical health record for doctors and patients. It’s also a hospital management platform for appointment booking, medical prescription, task planning, and teleconsultation. The project is currently in the pilot phase with two clinics in Burkina Faso.<br>
-Java, Spring Boot </p>
-				<a href="#" class="icon icon-arrow-right button">Read More</a> </div>
-				<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/2.png" alt="" /></a>
-				<p>I worked as Software engineer at Kindred group  from 09/2019-11/2021. 
-I have led and contributed to the implementation and deployment of Trustly , Adyen, Earthport, Swish payment apis into Kindred different platforms such as Unibet, Casino, 32Red</p>
-				<a href="thesis-final.pdf" class="icon icon-arrow-right button">Read More</a>
-				 </div>
-				
-		</div>
-		<div id="portfolio" class="container">
-			
-				<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic3.png" alt="" /></a>
-				<p>I worked on COVID 19 social distance prediction problem. I used the National Institute of Standards and Technology (NIST) Too Close for Too Long data set to propose a convolutional neural network to classify the distance based on the Bluetooth signal, accelerometer, and gyroscope value from the users smartphones.</p>
-				<a href="https://github.com/delwende/TC4TL" class="icon icon-arrow-right button">Read More</a> </div>
-				<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic4.png" alt="" /></a>
-				<p>I took part in the challenge of COVID-19 in the Chest X-ray images multi-classification task. proposed for Ethics and Explainability for Responsible Data Science (EE-RDS) conference. My proposed solution building on ResNets was ranked 17th on 33.</p>
-				<a href="https://github.com/delwende/COVID19-IMAGE-CLASSIFICATION" class="icon icon-arrow-right button">Read More</a> </div>
-				
-				
-		</div>
+		  <div class="blogs-content">
+                <div class="main-title">
+                    <h2> <span>WORKS</span><span class="bg-text">WORKS</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/img12.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                <a href="https://aikinggroup.tech/mobile-app/">AI based diabetes app</a>
+                            </h4>
+                            <p>
+                               DiabeteControle is a software platform solution with a mobile app for tracking and managing the condition of people with diabetes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/img13.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                               <a href="Poster-preeclampsia.pdf">An explainable XGBoost–based approach towards Preeclampsia risk prediction</a>
+                            </h4>
+                            <p>
+                                The prediction models and achieved AUC score of 0.90.                         
+                                   </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/img14.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                               <a href="thesis-final.pdf"> Comparative study of data splitting algorithms for machine learning model selection.</a>
+                            </h4>
+                            <p>
+                                Cmparative study on various reported data splitting algorithms such as k-fold, Kennard-Stone, SPXY, and random sampling algorithm.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="images/pic3.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                 <a href="https://github.com/delwende/TC4TL"> COVID 19 social distance prediction problem. </a>
+                            </h4>
+                            <p>
+                                Convolutional neural network to classify the distance based on the Bluetooth signal, accelerometer, and gyroscope value from the users smartphones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="images/pic4.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                <a href="https://github.com/delwende/COVID19-IMAGE-CLASSIFICATION"> COVID-19 in the Chest X-ray images multi-classification task</a>
+                            </h4>
+                            <p>
+                               Proposed for Ethics and Explainability for Responsible Data Science (EE-RDS) conference. My proposed solution building on ResNets was ranked 17th on 33.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="images/pic8.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                <a href="https://github.com/delwende/Machine-Learning-and-Computer-vision"> CNN model face tracking and hand sign language interpretation in real time camera</a>
+                            </h4>
+                            <p>
+                              Convolutional Neural Network  model face tracking and hand sign language interpretation in real time camera. Implemented with OpenCV, C++ 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div id="portfolio" class="container">
-			
-				
-				<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic09.png" alt="" /></a>
-				<p>Comparative study of data splitting algorithms for machine learning model selection.<br>
-
-Model validation is one of the important parts of building a supervised machine learning or deep learning model. For creating a model with better generalization performance, one must have a sensible data splitting strategy because this is important for model validation. So I conducted a comparative study on various reported data splitting algorithms such as k-fold, Kennard-Stone, SPXY ( sample set partitioning based on joint x-y distance), and random sampling algorithm on simulated and real data
-</p>
-				<a href="thesis-final.pdf" class="icon icon-arrow-right button">Read More</a> </div>
-			
-			<div id="column2">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic8.png" alt="" /></a>
-				<p>CNN model face tracking and hand sign language interpretation in real time camera<br>
-				Convolutional Neural Network  model face tracking and hand sign language interpretation in real time camera. Implemented with OpenCV, C++ </p>
-				<a href="https://github.com/delwende/Machine-Learning-and-Computer-vision" class="icon icon-arrow-right button">Read More</a> </div>
-		</div>
-
-			<div id="portfolio" class="container">
-			
-				
-				<div id="column1">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic6.png" alt="" /></a>
-				<p>Deep learning for correcting misspelling in clinical notes<br>
-				During my internship at IS3-lab at the University of Nice Sophia Antipolis, I implemented a deep learning model for English and French clinical notes correction. I proposed a character level sequence to sequence learning with LSTM RNNs to detect and correct misspellings in clinical notes with 97% accuracy.</p>
-				<a href="https://github.com/delwende/personal-project/blob/master/CODE/Codev1.ipynb" class="icon icon-arrow-right button">Read More</a> </div>
-			
-
-				<div id="column2">
-				<div class="title">
-					<h2></h2>
-				</div>
-				<a href="#" class="image image-full"><img src="images/pic5.png" alt="" /></a>
-				<p>Machine learning model for odor molecules psychophysiology effects prediction.<br>
-
-I proposed a machine learning model to classify the odor molecules as an enhancing activity (or positive effect "+") or a decreasing activity (negative effect "-") for heartbeat rate variation and temperature. Such an approach will be important because it should allow us to design and optimize odorants or perfumes to affect our emotional state positively. My abstract has been accepted for two workshops at NeurIPS 2019 (WiML and Learning Meaningful Representations of Life). Presenting my work at two workshop poster sessions with a travel grant reaffirmed my passion for machine learning.
-</p>
-				<a href="odor.pdf" class="icon icon-arrow-right button">Read More</a> </div>
-		</div>
+		
 	</div>
 	
 </div>
@@ -145,5 +131,7 @@ I proposed a machine learning model to classify the odor molecules as an enhanci
 <div id="copyright" class="container">
 	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
+ <!-- jQuery -->
+        <script src="app.js"></script>
 </body>
 </html>
